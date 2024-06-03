@@ -1,0 +1,38 @@
+{
+  "sourceVendor": "MYSQL",
+  "query": "SELECT * FROM edu_database.students",
+  "sourceTable": "students",
+  "connectionInfo": {
+	"username" : "<username>",
+	"password": "<password>",
+	"host": "<host>",
+	"port": 3306,
+	"database": "edu_database"
+  },
+  "tableMappings": {
+    "INTERNAL_ID": {
+      "name": "id",
+      "type": "INT"
+    },
+    "EMAIL": {
+      "name": "email",
+      "type": "VARCHAR"
+    },
+    "FIRST_NAME": {
+      "name": "first_name",
+      "type": "VARCHAR"
+    },
+    "LAST_NAME": {
+      "name": "last_name",
+      "type": "VARCHAR"
+    },
+    "CITY_OF_BIRTH": {
+      "name": "city_of_birth",
+      "type": "VARCHAR"
+    },
+    "GRADE": {
+      "name": "grade",
+      "type": "INT"
+    }
+  }
+}
